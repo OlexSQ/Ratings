@@ -16,6 +16,9 @@
 		0437C55621F932A700ECA1F5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437C55521F932A700ECA1F5 /* Player.swift */; };
 		0437C55821F9331200ECA1F5 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437C55721F9331200ECA1F5 /* SampleData.swift */; };
 		0437C55A21F938A400ECA1F5 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437C55921F938A400ECA1F5 /* PlayerCell.swift */; };
+		0454AE2A21FCFB2100A23AAD /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454AE2921FCFB2100A23AAD /* PlayerDetailsViewController.swift */; };
+		0454AE2C21FD0E0400A23AAD /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454AE2B21FD0E0400A23AAD /* GamePickerViewController.swift */; };
+		0454AE2F21FD155200A23AAD /* Players.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0454AE2D21FD155200A23AAD /* Players.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		0437C55521F932A700ECA1F5 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		0437C55721F9331200ECA1F5 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		0437C55921F938A400ECA1F5 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		0454AE2921FCFB2100A23AAD /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		0454AE2B21FD0E0400A23AAD /* GamePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
+		0454AE2E21FD155200A23AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Ratings/Base.lproj/Players.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,7 @@
 		0437C53321F9249500ECA1F5 = {
 			isa = PBXGroup;
 			children = (
+				0454AE2D21FD155200A23AAD /* Players.storyboard */,
 				0437C53E21F9249500ECA1F5 /* Ratings */,
 				0437C53D21F9249500ECA1F5 /* Products */,
 			);
@@ -67,7 +74,9 @@
 				0437C54321F9249500ECA1F5 /* Main.storyboard */,
 				0437C54621F9249600ECA1F5 /* Assets.xcassets */,
 				0437C55921F938A400ECA1F5 /* PlayerCell.swift */,
+				0454AE2921FCFB2100A23AAD /* PlayerDetailsViewController.swift */,
 				0437C55721F9331200ECA1F5 /* SampleData.swift */,
+				0454AE2B21FD0E0400A23AAD /* GamePickerViewController.swift */,
 				0437C55521F932A700ECA1F5 /* Player.swift */,
 				0437C55321F931EC00ECA1F5 /* PlayersViewController.swift */,
 				0437C54821F9249600ECA1F5 /* LaunchScreen.storyboard */,
@@ -135,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0437C54A21F9249600ECA1F5 /* LaunchScreen.storyboard in Resources */,
+				0454AE2F21FD155200A23AAD /* Players.storyboard in Resources */,
 				0437C54721F9249600ECA1F5 /* Assets.xcassets in Resources */,
 				0437C54521F9249500ECA1F5 /* Main.storyboard in Resources */,
 			);
@@ -147,9 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0454AE2C21FD0E0400A23AAD /* GamePickerViewController.swift in Sources */,
 				0437C55621F932A700ECA1F5 /* Player.swift in Sources */,
 				0437C54221F9249500ECA1F5 /* ViewController.swift in Sources */,
 				0437C55A21F938A400ECA1F5 /* PlayerCell.swift in Sources */,
+				0454AE2A21FCFB2100A23AAD /* PlayerDetailsViewController.swift in Sources */,
 				0437C54021F9249500ECA1F5 /* AppDelegate.swift in Sources */,
 				0437C55821F9331200ECA1F5 /* SampleData.swift in Sources */,
 				0437C55421F931EC00ECA1F5 /* PlayersViewController.swift in Sources */,
@@ -173,6 +185,14 @@
 				0437C54921F9249600ECA1F5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0454AE2D21FD155200A23AAD /* Players.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0454AE2E21FD155200A23AAD /* Base */,
+			);
+			name = Players.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
